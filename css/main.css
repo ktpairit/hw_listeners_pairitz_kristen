@@ -1,0 +1,83 @@
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#main {
+	margin: auto;
+	text-align: center;
+	width: 100%;
+}
+
+.visuallyhidden {
+	border: 0;
+	clip: rect( 0 0 0 0 );
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+
+#mainPhoto {
+	width: 100%;
+	height: auto;
+}
+
+#logo {
+	margin-top: 27%;
+	margin-left: 21%;
+	position: absolute;
+	width: 12%;
+	z-index: 150;
+}
+
+#logo:hover {
+	opacity: .8;
+}
+
+h3 {
+	color: #F40076;
+	font-size: 3.5em;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: -58%;
+	margin-left: 7%;
+	position: absolute;
+	z-index: 50;
+}
+
+#justDoIt {
+	color: #87F1FF;
+	font-family: 'Oswald', sans-serif;
+	font-size: 7em;
+	font-weight: lighter;
+	text-align: left;
+	margin-top: -52%;
+	margin-left: 11%;
+	position: absolute;
+	z-index: 50;
+}
+
+.button {
+	background-color: transparent;
+	border-radius: 5px;
+	border: .13em #F40076 solid;
+	color: #F40076;
+	font-size: 1.2em;
+	font-weight: lighter;
+	margin-top: -30%;
+	margin-left: -30%;
+	padding: .7em 1.5em;
+	position: absolute;
+	text-decoration: none;
+	z-index: 100;
+}
+
+.button:hover {
+	color: #87F1FF;
+	border: .13em #87F1FF solid;
+	opacity: .5;
+}
